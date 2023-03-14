@@ -10,6 +10,7 @@
 # 24 -> 4  16  4
 # 60 -> 10  40  10
 
+
 S = int(input("Введите общее количество сделанных журавликов "))
 petya = seryozha = int(S/6)
 katya = (petya + seryozha) * 2

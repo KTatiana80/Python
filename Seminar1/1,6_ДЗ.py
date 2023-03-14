@@ -11,6 +11,7 @@
 # 385916 -> yes
 # 123456 -> no
 
+
 def Sum_of_three_digit_number(number):
     first_digit = number // 100
     second_digit = (number // 10) % 10
