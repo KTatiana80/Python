@@ -11,6 +11,7 @@
 # 5 -> 10110
 # 2
 
+
 import random
 
 

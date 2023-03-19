@@ -11,7 +11,8 @@
 
 # 4 4 -> 2 2
 # 5 6 -> 2 3
-"""
+
+
 def search(s,p):
     for i in range(s):
         for j in range(p):
@@ -31,13 +32,13 @@ def main():
 
 if __name__ == '__main__':
     main()
-"""
 
-my_sum = int(input("Summ = "))
-my_przv = int(input("Composition = "))
-for first in range(1, my_sum // 2+1):
-    second = my_sum - first
-    if my_przv == first * second:
-        print(first, second)
-        break
-else:print("Введены нокорректные данные")
+
+# my_sum = int(input("Summ = "))
+# my_przv = int(input("Composition = "))
+# for first in range(1, my_sum // 2+1):
+#     second = my_sum - first
+#     if my_przv == first * second:
+#         print(first, second)
+#         break
+# else:print("Введены нокорректные данные")
