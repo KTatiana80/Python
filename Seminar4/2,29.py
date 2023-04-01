@@ -40,12 +40,12 @@
 #         max_number = n
 # print(max_number)
 
-# Петя:
-n = int(input())
-max_number = -1  
-while n > 0:  # 1 Изменили знак
+# # Петя:
+# n = int(input())
+# max_number = -1  
+# while n > 0:  # 1 Изменили знак
 
-    if max_number < n:
-        max_number = n # 2 Заменили знак
-    n = int(input())
-print(max_number) # 3 Изменили переменную
+#     if max_number < n:
+#         max_number = n # 2 Заменили знак
+#     n = int(input())
+# print(max_number) # 3 Изменили переменную
