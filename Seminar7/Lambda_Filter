@@ -1,0 +1,26 @@
+my_nums = '182 34 56 786 89'
+
+# my_list_0 = my_nums.split()
+# print(my_list_0)
+
+# my_list_1 = map(int, my_nums.split())
+# print(my_list_1)
+# print('Первый my_list_1')
+# print(list(my_list_1))
+# print('Второй my_list_1')
+# print(list(my_list_1))
+
+# my_list_1_2 = map(int, my_nums.split())
+# print(next(my_list_1_2))
+# print(next(my_list_1_2))
+# print(next(my_list_1_2))
+# print(next(my_list_1_2))
+# print(next(my_list_1_2))
+# print(next(my_list_1_2))
+# print(next(my_list_1_2))
+
+my_filter = tuple(filter(lambda x: '8' in x, my_nums.split()))
+my_list_2 = list(map(int, my_filter))
+my_list_3 = list(map(int, my_filter))
+print(my_list_2)
+print(my_list_3)
